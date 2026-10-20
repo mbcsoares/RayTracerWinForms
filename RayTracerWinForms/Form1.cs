@@ -215,9 +215,9 @@ namespace RayTracerWinForms
 
             // ---------- Triângulo vertical (Möller–Trumbore) ----------
             scene.Shapes.Add(new Triangle(
-                new Vec3(0.0, 0.0, -2.5),
-                new Vec3(1.5, 0.0, -3.5),
-                new Vec3(-1.5, 0.0, -3.5),
+                new Vec3(-2.5, 0.0, 0.0),
+                new Vec3(0.0, 1.5, -3.5),
+                new Vec3(0.0, -1.5, -3.5),
                 matGreen));
 
             // ---------- Luzes ----------
